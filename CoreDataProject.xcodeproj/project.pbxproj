@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2052C029BD053700E3130F /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2052BF29BD053700E3130F /* FilteredList.swift */; };
 		BB924FAA29BC1EC100C056FC /* CoreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB924FA929BC1EC100C056FC /* CoreDataProjectApp.swift */; };
 		BB924FAC29BC1EC100C056FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB924FAB29BC1EC100C056FC /* ContentView.swift */; };
 		BB924FAE29BC1EC200C056FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB924FAD29BC1EC200C056FC /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB2052BF29BD053700E3130F /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 		BB924FA629BC1EC100C056FC /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB924FA929BC1EC100C056FC /* CoreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProjectApp.swift; sourceTree = "<group>"; };
 		BB924FAB29BC1EC100C056FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				BBEE504729BD036100DA87E0 /* Singer+CoreDataProperties.swift */,
 				BB924FA929BC1EC100C056FC /* CoreDataProjectApp.swift */,
 				BB924FAB29BC1EC100C056FC /* ContentView.swift */,
+				BB2052BF29BD053700E3130F /* FilteredList.swift */,
 				BB924FBA29BC1F5900C056FC /* DataController.swift */,
 				BB924FAD29BC1EC200C056FC /* Assets.xcassets */,
 				BB924FB729BC1EEE00C056FC /* CoreDataProject.xcdatamodeld */,
@@ -155,6 +158,7 @@
 				BBEE504829BD036200DA87E0 /* Singer+CoreDataClass.swift in Sources */,
 				BB924FAA29BC1EC100C056FC /* CoreDataProjectApp.swift in Sources */,
 				BB924FB929BC1EEE00C056FC /* CoreDataProject.xcdatamodeld in Sources */,
+				BB2052C029BD053700E3130F /* FilteredList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
