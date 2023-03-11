@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct FilteredList: View {
+    @FetchRequest var fetchRequest: FetchedResults<Singer>
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
-}
-
-struct FilteredList_Previews: PreviewProvider {
-    static var previews: some View {
-        FilteredList()
+    
+    init(filter: String) {
+        _fetchRequest = FetchRequest<Singer>(sortDescriptors: [], predicate: NSPredicate(format: "lastName BEGINSWITH %@", filter))
     }
 }
