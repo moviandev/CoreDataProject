@@ -11,6 +11,7 @@
 		BB924FAC29BC1EC100C056FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB924FAB29BC1EC100C056FC /* ContentView.swift */; };
 		BB924FAE29BC1EC200C056FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB924FAD29BC1EC200C056FC /* Assets.xcassets */; };
 		BB924FB129BC1EC200C056FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB924FB029BC1EC200C056FC /* Preview Assets.xcassets */; };
+		BB924FB929BC1EEE00C056FC /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB924FB729BC1EEE00C056FC /* CoreDataProject.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BB924FAB29BC1EC100C056FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB924FAD29BC1EC200C056FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB924FB029BC1EC200C056FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB924FB829BC1EEE00C056FC /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				BB924FA929BC1EC100C056FC /* CoreDataProjectApp.swift */,
 				BB924FAB29BC1EC100C056FC /* ContentView.swift */,
 				BB924FAD29BC1EC200C056FC /* Assets.xcassets */,
+				BB924FB729BC1EEE00C056FC /* CoreDataProject.xcdatamodeld */,
 				BB924FAF29BC1EC200C056FC /* Preview Content */,
 			);
 			path = CoreDataProject;
@@ -139,6 +142,7 @@
 			files = (
 				BB924FAC29BC1EC100C056FC /* ContentView.swift in Sources */,
 				BB924FAA29BC1EC100C056FC /* CoreDataProjectApp.swift in Sources */,
+				BB924FB929BC1EEE00C056FC /* CoreDataProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +343,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB924FB729BC1EEE00C056FC /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB924FB829BC1EEE00C056FC /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = BB924FB829BC1EEE00C056FC /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BB924F9E29BC1EC100C056FC /* Project object */;
 }
