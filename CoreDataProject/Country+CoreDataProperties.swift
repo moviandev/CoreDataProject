@@ -21,13 +21,20 @@ extension Country {
     @NSManaged public var candy: NSSet?
     
     public var wrappedFullName: String {
-        fullName ?? "Unknown name"
+        fullName ?? "Unknown Country"
     }
     
     public var wrappedShortName: String {
-        shortName ?? "Unknown name"
+        shortName ?? "Unknown Country"
     }
-
+    
+    public var candyArray: [Candy] {
+        let set = candy as? Set<Candy> ?? []
+        
+        return set.sorted {
+            $0.wrappedName < $1.wrappedName
+        }
+    }
 }
 
 // MARK: Generated accessors for candy
