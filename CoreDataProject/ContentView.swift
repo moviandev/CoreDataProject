@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var moc
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Save") {
+            try? moc.save()
+        }
     }
 }
 
