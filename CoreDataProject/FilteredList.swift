@@ -11,7 +11,9 @@ struct FilteredList: View {
     @FetchRequest var fetchRequest: FetchedResults<Singer>
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(fetchRequest, id: \.self) { singer in
+            Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
+        }
     }
     
     init(filter: String) {
