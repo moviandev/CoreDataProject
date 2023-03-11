@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
-    @FetchRequest(sortDescriptors: [], predicate: NSPredicate(format: "universe IN '%@'", ["Aliens", "Firefly"])) var ships: FetchedResults<Ship>
+    @FetchRequest(sortDescriptors: [], predicate: NSPredicate(format: "name BEGINSWITH %@", "E")) var ships: FetchedResults<Ship>
     
     var body: some View {
         VStack {
