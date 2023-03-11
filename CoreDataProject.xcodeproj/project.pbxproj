@@ -12,6 +12,7 @@
 		BB924FAE29BC1EC200C056FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB924FAD29BC1EC200C056FC /* Assets.xcassets */; };
 		BB924FB129BC1EC200C056FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB924FB029BC1EC200C056FC /* Preview Assets.xcassets */; };
 		BB924FB929BC1EEE00C056FC /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB924FB729BC1EEE00C056FC /* CoreDataProject.xcdatamodeld */; };
+		BB924FBB29BC1F5900C056FC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB924FBA29BC1F5900C056FC /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BB924FAD29BC1EC200C056FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB924FB029BC1EC200C056FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB924FB829BC1EEE00C056FC /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		BB924FBA29BC1F5900C056FC /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BB924FA929BC1EC100C056FC /* CoreDataProjectApp.swift */,
 				BB924FAB29BC1EC100C056FC /* ContentView.swift */,
+				BB924FBA29BC1F5900C056FC /* DataController.swift */,
 				BB924FAD29BC1EC200C056FC /* Assets.xcassets */,
 				BB924FB729BC1EEE00C056FC /* CoreDataProject.xcdatamodeld */,
 				BB924FAF29BC1EC200C056FC /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB924FAC29BC1EC100C056FC /* ContentView.swift in Sources */,
+				BB924FBB29BC1F5900C056FC /* DataController.swift in Sources */,
 				BB924FAA29BC1EC100C056FC /* CoreDataProjectApp.swift in Sources */,
 				BB924FB929BC1EEE00C056FC /* CoreDataProject.xcdatamodeld in Sources */,
 			);
