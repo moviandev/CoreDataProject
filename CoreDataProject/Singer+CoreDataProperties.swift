@@ -24,7 +24,7 @@ extension Singer {
     }
     
     public var wrappedLastName: String {
-        firstName ?? "Unknown"
+        lastName ?? "Unknown"
     }
 
 }
